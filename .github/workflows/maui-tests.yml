@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - main
-      - infra/runner-toevoegen
+      - develop
+      - feature/UC5
+      - feature/UC6
   pull_request:
     branches:
       - main
